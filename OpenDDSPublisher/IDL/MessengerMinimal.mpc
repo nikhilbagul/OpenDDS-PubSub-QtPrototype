@@ -1,0 +1,28 @@
+project(*IDLCommonLib) : dcps {
+  staticname     = IDLCommonLib
+  dynamicflags   = IDL_COMMON_BUILD_DLL
+  libout         = .
+  requires += tao_orbsvcs
+  requires += no_opendds_safety_profile
+  after    += Svc_Utils
+  includes      += $(TAO_ROOT)/orbsvcs
+  idlflags      += -I$(TAO_ROOT)/orbsvcs                   
+
+  TypeSupport_Files {
+    Messenger.idl
+  }
+
+  IDL_Files {
+    MessengerTypeSupport.idl
+    Messenger.idl
+  }
+
+  // We only want the generated files
+  Header_Files {
+  }
+
+  // We only want the generated files
+  Source_Files {
+  }
+}
+
