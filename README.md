@@ -1,7 +1,9 @@
 # OpenDDS-PubSub-QtPrototype
 
 Qt verson: Qt for Mac 5.12.0
+
 clang-1000.10.44.2
+
 OpenDDS 3.13
 
 This repository contains two Qt Quick based UI applications deploying OpenDDS as the communication protocol. 
