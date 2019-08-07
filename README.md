@@ -26,5 +26,5 @@ These apps communicate over OpenDDS in a RTPS mode
 1. To build the app one would require qmake (for compilation) and Qt Creator IDE to read and open the project.
 2. Qt (FOSS) can be obtained from https://www.qt.io/download
 3. Once downloaded and installed, open the apps via QtCreator and hit run to build & run the apps. 
-4. To view the console/application logs in the application itself, disable the 'run in terminal' option from the project settings, else it will trigger the console every time the applicaton is fired from within the QtCreator IDE
+4. To view the console/application logs in the IDE console, disable the 'run in terminal' option from the project settings, else it will trigger the console every time the applicaton is fired from within the QtCreator IDE
 
