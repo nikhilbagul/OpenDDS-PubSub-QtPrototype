@@ -18,7 +18,7 @@ Message, as well as the type support code for the data readers and writers is al
 
 # Publisher and Subsriber
 
-The Pub-Sub apps are based on the messenger.minimal example as part of the OpenDDS examples
+The Pub-Sub apps are based on the messenger.minimal example as part of the OpenDDS examples.
 These apps communicate over OpenDDS in a RTPS mode
 
 # Compiling and running the applications
